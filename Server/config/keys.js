@@ -1,3 +1,4 @@
-module.exports= {
-    mongoURI: 'mongodb://hjaroudi98:Hm11223344@ds127928.mlab.com:27928/sabic_hj'
-}
+module.exports = {
+    mongoURI:'mongodb://admin:admin@ds157089.mlab.com:57089/sabic18',
+    secretOrKey: 'S3cRe7'
+};
