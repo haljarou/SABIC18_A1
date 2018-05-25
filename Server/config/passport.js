@@ -1,4 +1,4 @@
-es (23 sloc)  791 Bytes
+
 const JwtStrategy = require('passport-jwt').Strategy;
 const ExtractJwt = require('passport-jwt').ExtractJwt;
 const mongoose = require('mongoose');

@@ -9,7 +9,7 @@ const passport = require('passport');
 // get the files from their current location
 const users = require('./routes/api/users');
 const profile = require('./routes/api/profile');
-const posts = require('./routes/api/posts');
+const posts = require('./routes/api/post');
 
 const app = express();
 
