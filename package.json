@@ -1,16 +1,16 @@
 {
-  "name": "sabic18_a",
+  "name": "sabic18_tst",
   "version": "1.0.0",
-  "description": "SABIC's first website for the UCD students",
+  "description": "first app in express for sabic students",
   "main": "server.js",
   "scripts": {
-    "client-install": "npm install --prefix Client",
+    "client-install": "npm install --prefix client",
     "start": "node server/server.js",
     "server": "nodemon server/server.js",
-    "client": "npm start --prefix Client",
+    "client": "npm start --prefix client",
     "dev": "concurrently \"npm run server\" \"npm run client\""
   },
-  "author": "Hassan Aljaroudi",
+  "author": "Gabriel Castillo",
   "license": "MIT",
   "dependencies": {
     "bcryptjs": "^2.4.3",

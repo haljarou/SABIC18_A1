@@ -1,11 +1,11 @@
-const mongoose = require ('mongoose');
+const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 
-//create schemas
-const UserSchemas = new Schema ({
+// Create schema
+const UserSchema = new Schema({
     name: {
-       type: String,
-       required: true
+        type: String,
+        required: true
     },
     email: {
         type: String,
@@ -16,7 +16,7 @@ const UserSchemas = new Schema ({
         required: true
     },
     avatar: {
-       type: String
+        type: String
         //required: true // getting from gravatar
     },
     date: {
@@ -25,4 +25,7 @@ const UserSchemas = new Schema ({
     }
 });
 
-module.exports = User = mongoose.model ('users',UserSchemas);
+module.exports = User = mongoose.model('users', UserSchema);
+
+
+
